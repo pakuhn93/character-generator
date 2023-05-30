@@ -1,0 +1,20 @@
+*{
+    font-family: 'Calibri';
+    /* border: solid; */
+}
+
+#name {
+    height: 1em;
+    width: 20em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+form > label{
+    font-weight: bold;
+    font-size: 1.3em;
+}
