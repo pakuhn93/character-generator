@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Character Generator</title>
+</head>
+<body>
+    <!-- Username and Password Field -->
+    <form id = "user-info">
+        <label for = "username">Username: </label>
+        <input id = "username" placeholder = "username">
+        <label for = "password">Password: </label>
+        <input id = "password" placeholder = "password">  
+    </form>
+
+    <!-- User Input Form -->
+    <form id = "character-info">
+        <!-- Character Information -->
+        <label for = "name">Character Name:</label>
+        <input id = "name" placeholder = "John Smith"></input>
+
+        <!-- filled w/generateOptions function in js -->
+        <label for = "race">Race:</label>
+        <select id = "race"></select>
+        <label for = "class">Class:</label>
+        <select id = "class"></select>
+        
+        <!-- Stats Section | needs a different element container -->
+        <label for = "stats">Stats:</label>
+        <div id = "stats">
+            <label for = "STR">STR:</label>
+            <select id = "STR"></select>
+            <label for = "CON">CON:</label>
+            <select id = "CON"></select>
+            <label for = "DEX">DEX:</label>
+            <select id = "DEX"></select>
+            <label for = "INT">INT:</label>
+            <select id = "INT"></select>
+            <label for = "WIS">WIS:</label>
+            <select id = "WIS"></select>
+            <label for = "CHA">CHA:</label>
+            <select id = "CHA"></select>
+        </div>
+        
+        <!-- Saves Section -->
+        <label for = "saves">Saving Throws:</label>
+        <div id = "saves">
+
+        </div>
+
+        <!-- Skills Section -->
+        <label for = "skills">Skills:</label>
+        <div id = "skills">
+            
+        </div>
+
+    </form>
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
